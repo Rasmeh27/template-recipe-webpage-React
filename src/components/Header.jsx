@@ -8,15 +8,15 @@ function Header() {
             <nav className="flex items-center justify-between">
                 {/* Logo y menú */}
                 <div className="flex items-center justify-between">
-                <FaBars className="text-gray-700 text-2xl mr-3 cursor-pointer" />  
+                    <FaBars className="text-gray-700 text-2xl mr-3 cursor-pointer" />
                     <h1 className="text-black text-xl font-bold">Logo-RecipeWebPage</h1>
                 </div>
                 {/* Search */}
-                <div className="flex items-center border-gray-300 rounded-lg overflow-hidden">
-                    <select className="bg-gray-100 p-3 border-gray-300 text-sm text-black outline-none cursor-pointer" id="category">
-                        <option>All Categories</option>
+                <div className="flex items-center border-gray-300 rounded-lg overflow-hidden outline-none">
+                    <select className="bg-gray-100 p-3 border-gray-300 text-sm text-gray-600 cursor-pointer" id="category">
+                        <option className="outline-none">All Categories</option>
                     </select>
-                    <input type="text" id="text" placeholder="search..." className="bg-gray-100 p-2 text-gray-700 outline-none"/>
+                    <input type="text" id="text" placeholder="search..." className="bg-gray-100 p-2 text-gray-700 outline-none" />
                     <button className="bg-green-500 p-3 px-3 text-white cursor-pointer"><FaSearch></FaSearch></button>
                 </div>
                 <ul className="flex items-center justify-between">

@@ -5,10 +5,14 @@ import './App.css'
 
 import Saludo from './components/saludo'
 import Header from './components/header'
+import TrendingSalad from './components/TrendingSalad'
 
 function App() {
   return (
-    <Header />
+    <>
+      <Header />
+      <TrendingSalad />
+    </>
   )
 }
 
