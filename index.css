@@ -1,0 +1,18 @@
+body,
+html,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background: linear-gradient(rgba(50, 48, 48, 0.671), rgba(50, 48, 48, 0.671)),
+    url(pizza.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  color: #ffffff;
+}
