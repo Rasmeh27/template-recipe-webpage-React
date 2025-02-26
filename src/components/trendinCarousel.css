@@ -1,0 +1,58 @@
+/* Tamaño y diseño de las flechas */
+.custom-next, .custom-prev {
+  width: 40px !important; /* Reducimos el tamaño */
+  height: 40px !important;
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente */
+  border-radius: 50%; /* Forma circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Icono dentro de las flechas */
+.custom-next::after, .custom-prev::after {
+  font-size: 16px !important; /* Tamaño del icono */
+  color: white !important; /* Color blanco */
+  font-weight: bold;
+}
+
+/* Efecto hover */
+.custom-next:hover, .custom-prev:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Posición centrada en la parte inferior */
+.custom-next, .custom-prev {
+  position: absolute;
+  bottom: 10px; /* Pegadas a la parte inferior */
+  top: auto !important; /* Asegura que no se suban */
+  transform: translateY(0);
+}
+
+/* Flecha izquierda */
+.custom-prev {
+  left: 45%; /* Centramos horizontalmente */
+}
+
+/* Flecha derecha */
+.custom-next {
+  right: 45%;
+}
+
+/* Cambiar color de los puntos de paginación */
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5) !important; /* Puntos inactivos en gris claro */
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 5px !important; /* Espaciado entre puntos */
+  opacity: 1 !important; /* Evitar que Swiper los haga más transparentes */
+}
+
+/* Cambiar color del punto activo a naranja */
+.swiper-pagination-bullet-active {
+  background: #ff7f00 !important; /* Naranja vibrante */
+  width: 10px !important; /* Hacer el punto activo un poco más grande */
+  height: 10px !important;
+}
+

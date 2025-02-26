@@ -5,15 +5,15 @@ import './App.css'
 
 import Saludo from './components/saludo'
 import Header from './components/header'
-import TrendingSalad from './components/TrendingSalad'
+import TrendingCarousel from './components/TrendingCarousel'
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      <TrendingSalad />
-    </>
-  )
+      <TrendingCarousel />
+    </div>
+  );
 }
 
-export default App
+export default App;
