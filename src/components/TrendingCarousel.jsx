@@ -4,7 +4,6 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
 import "./trendinCarousel.css"; 
 
 const slides = [
@@ -30,7 +29,7 @@ const slides = [
 
 const TrendingCarousel = () => {
   return (
-    <div className="w-[1264px] h-[355px] mx-auto p-4 relative">
+    <div className="w-[1264px] h-[355px] justify-center mx-auto p-4 relative">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
@@ -71,5 +70,3 @@ const TrendingCarousel = () => {
 };
 
 export default TrendingCarousel;
-
-

@@ -9,7 +9,8 @@ function Header() {
                 {/* Logo y menú */}
                 <div className="flex items-center justify-between">
                     <FaBars className="text-gray-700 text-2xl mr-3 cursor-pointer" />
-                    <h1 className="text-black text-xl font-bold">Logo-RecipeWebPage</h1>
+                    <img src="https://cdn.pixabay.com/photo/2016/06/09/18/36/logo-1446293_1280.png" alt="" className="w-[30px] h-[30px] mr-1"/>
+                    <h1 className="text-green-700 text-base font-bold">Recipe WebPage</h1>
                 </div>
                 {/* Search */}
                 <div className="flex items-center border-gray-300 rounded-lg overflow-hidden outline-none">
