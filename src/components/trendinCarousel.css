@@ -2,7 +2,7 @@
 .custom-next, .custom-prev {
   width: 40px !important; /* Reducimos el tamaño */
   height: 40px !important;
-  background-color: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente */
+  /*background-color: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente */
   border-radius: 50%; /* Forma circular */
   display: flex;
   align-items: center;
@@ -26,19 +26,21 @@
 .custom-next, .custom-prev {
   position: absolute;
   bottom: 10px; /* Pegadas a la parte inferior */
-  top: auto !important; /* Asegura que no se suban */
+   /* Asegura que no se suban */
   transform: translateY(0);
 }
 
 /* Flecha izquierda */
 .custom-prev {
-  left: 45%; /* Centramos horizontalmente */
+  left: 2%; /* Centramos horizontalmente */
 }
 
 /* Flecha derecha */
 .custom-next {
-  right: 45%;
+  right: 2%;
 }
+
+
 
 /* Cambiar color de los puntos de paginación */
 .swiper-pagination-bullet {

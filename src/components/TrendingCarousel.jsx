@@ -10,21 +10,21 @@ import "./trendinCarousel.css";
 const slides = [
   {
     title: "Mike’s famous salad with cheese",
-    author: "By John Mike",
+    author: "By Luis Herasme",
     image:
       "https://insanelygoodrecipes.com/wp-content/uploads/2022/10/Healthy-Homemade-Salad-with-Pomegranate-Cheese-Figs-Brussel-Sprouts-and-Potatoes.jpg",
   },
   {
     title: "Delicious Pasta Special",
-    author: "By Sarah Doe",
+    author: "By Lismeldy Peguero",
     image:
       "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
   },
   {
     title: "Tasty Vegan Burger",
-    author: "By Robert Smith",
+    author: "By Xavier Fernadez",
     image:
-      "https://images.pexels.com/photos/1639564/pexels-photo-1639564.jpeg",
+      "https://cdn.pixabay.com/photo/2019/05/17/09/04/burger-4209189_960_720.jpg",
   },
 ];
 
